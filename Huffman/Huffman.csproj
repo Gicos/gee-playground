@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="input.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\net8.0\Huffman.deps.json" />
+      <Content Include="bin\Debug\net8.0\Huffman.dll" />
+      <Content Include="bin\Debug\net8.0\Huffman.exe" />
+      <Content Include="bin\Debug\net8.0\Huffman.pdb" />
+      <Content Include="bin\Debug\net8.0\Huffman.runtimeconfig.json" />
+      <Content Include="bin\Debug\net8.0\input.txt" />
+      <Content Include="bin\Debug\net8.0\output.bin" />
+    </ItemGroup>
+
+</Project>
